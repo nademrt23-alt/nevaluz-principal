@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Marca NEVALUZ">
+  <rect width="128" height="128" rx="24" fill="#0e0d0b"/>
+  <circle cx="64" cy="64" r="39" fill="none" stroke="#c8a45b" stroke-width="2"/>
+  <path d="M46 84V44l36 40V44" fill="none" stroke="#eee7d8" stroke-width="7" stroke-linecap="square" stroke-linejoin="round"/>
+  <circle cx="101" cy="94" r="5" fill="#e8c87c"/>
+</svg>
