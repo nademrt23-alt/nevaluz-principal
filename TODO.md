@@ -1,41 +1,23 @@
-# TODO — NEVALUZ página principal
+# TODO — Rediseño integral NEVALUZ
 
-## Página principal editorial y orientada a conversión
-- [x] Crear una página principal de escritorio para NEVALUZ, marca peruana de lámparas artesanales elaboradas con frascos de vidrio recuperado.
-- [x] Mantener una experiencia cálida, editorial y cómoda, con una ruta clara desde la emoción hasta la acción.
-- [x] Usar JavaScript vanilla para navegación suave, revelado progresivo, estados hover y modal de detalle.
+## Nueva dirección visual y de marca
+- [x] Cambiar completamente el estilo de la página principal hacia una experiencia contemporánea de lanzamiento de producto.
+- [x] Usar una estructura modular con jerarquía clara, espacios amplios, superficies marfil y carbón, ámbar como acción y tipografía editorial de alto contraste.
+- [x] Aplicar psicología de marketing de forma ética: Jobs to Be Done, AIDA, Hick, choice architecture, mere exposure y availability heuristic.
 
-## Hero y navegación
-- [x] Presentar a Reno grande como pieza protagonista con el mensaje “Enciende el recuerdo que quieres regalar”.
-- [x] Incluir navegación de escritorio con accesos a colección, historia, proceso, TikTok y contacto.
-- [x] Mantener el tratamiento de iluminación nocturna, carbón, latón, marfil, Cormorant Garamond y DM Sans.
+## Experiencia y conversión
+- [x] Presentar una promesa principal breve: “Lo cotidiano, encendido.”
+- [x] Explicar el trabajo emocional del producto mediante las intenciones “Sorprender”, “Acompañar” y “Recordar”.
+- [x] Destacar Reno grande como única acción principal disponible a S/ 12.
+- [x] Mantener CTAs directos hacia WhatsApp y TikTok sin formularios innecesarios.
+- [x] Mantener una voz clara, sensorial y honesta con frases memorables.
 
-## Propósito y proceso artesanal
-- [x] Explicar de forma honesta que NEVALUZ recupera frascos de vidrio y los convierte en objetos luminosos para regalar momentos.
-- [x] Explicar el recorrido del frasco recuperado hasta la lámpara terminada sin inventar certificaciones, cantidades o claims no verificables.
+## Disponibilidad y activos
+- [x] Mantener tamaño mediano a S/ 8 como “Próximamente”.
+- [x] Mantener Cabaña y Pack Pareja difuminados totalmente y etiquetados como “Próximamente”.
+- [x] Mantener Pack Pareja sin precio inventado.
+- [x] Reutilizar las imágenes oficiales suministradas para Reno, Cabaña y Pack Pareja.
 
-## Colección, tamaños y disponibilidad
-- [x] Mostrar Reno grande como producto destacado y disponible a S/ 12 con CTA directo para reservar por WhatsApp.
-- [x] Mostrar tamaño grande como disponible y tamaño mediano a S/ 8 como “Próximamente”.
-- [x] Mostrar Cabaña como “Próximamente”, con la imagen completamente difuminada y sin simular disponibilidad.
-- [x] Mostrar Pack Pareja como “Próximamente”, con la imagen completamente difuminada y sin mostrar un precio inventado.
-- [x] Mantener el tratamiento de futuras ediciones como expectativa clara, separada del producto disponible.
-
-## Imágenes y galería editorial
-- [x] Reutilizar el Reno adaptado y la fotografía real suministrada por el usuario.
-- [x] Usar la galería editorial para ayudar a imaginar el Reno en un espacio cotidiano.
-- [x] Aplicar blur completo a las imágenes de Cabaña y Pack Pareja y superponer la etiqueta “Próximamente”.
-
-## Conversión y extensión de marca
-- [x] Incluir CTA final hacia WhatsApp para reservar Reno grande.
-- [x] Incluir enlace a TikTok @nevaluz16 como extensión de la marca y futuras novedades.
-- [x] No usar prueba social, escasez o precios que no hayan sido confirmados.
-
-## Entrega técnica
-- [x] Servir `manus-routes.json` con la ruta `/`.
-- [x] Configurar diagnósticos para HTML, CSS y JavaScript antes de la primera implementación.
-- [x] Declarar un servidor de desarrollo en el puerto 3000 y verificar que responda.
-- [x] Crear README y especificación de marca para el nuevo repositorio separado del catálogo.
-- [x] Ejecutar comprobaciones de estructura y cargar el sitio en Preview.
-- [x] Crear y subir el código fuente al repositorio privado `nademrt23-alt/nevaluz-principal`.
-- [ ] Publicar la versión final y confirmar la URL pública.
+## Validación y entrega
+- [x] Ejecutar build, validación HTML/JavaScript y revisión visual de escritorio.
+- [ ] Actualizar el commit del repositorio GitHub y el checkpoint publicado.

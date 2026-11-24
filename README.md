@@ -1,12 +1,19 @@
 # NEVALUZ — Página principal
 
-Página principal de NEVALUZ, una marca peruana de lámparas artesanales elaboradas a partir de frascos de vidrio recuperado. Este repositorio es independiente de `nevaluz-catalog-avanze`: el catálogo existente conserva su propio ciclo de cambios.
+Página principal de NEVALUZ, marca peruana de lámparas artesanales hechas a partir de frascos de vidrio recuperado. Esta versión adopta una dirección de lanzamiento de producto: más modular, más clara y más cercana a una marca de diseño contemporánea que a un catálogo tradicional.
 
-## Dirección del sitio
+## Idea de marca
 
-La experiencia está pensada primero para computadora y sigue una lógica editorial cálida: el hero presenta la emoción antes que la ficha técnica; la historia explica el propósito; el proceso reduce dudas; la colección concentra la decisión en Reno grande, disponible a **S/ 12**; y el cierre dirige a WhatsApp sin formularios innecesarios.
+**Lo cotidiano, encendido.** La experiencia parte de una promesa corta, explica el trabajo emocional del producto, muestra el proceso, presenta Reno grande como elección principal y termina con una conversación directa por WhatsApp.
 
-La página usa Cormorant Garamond para el registro emocional y DM Sans para navegación, etiquetas y lectura funcional. La paleta combina carbón profundo, marrón nogal, papel marfil y latón NEVALUZ. Cabaña y Pack Pareja se mantienen como futuras ediciones: sus imágenes están completamente difuminadas y llevan la etiqueta exacta “Próximamente”. Pack Pareja no muestra un precio inventado.
+La página aplica psicología de marketing de forma ética: Jobs to Be Done para hablar de sorprender, acompañar y recordar; Hick y choice architecture para destacar una única ruta de compra; availability heuristic mediante fotografía real y escena de uso; y mere exposure mediante una promesa verbal consistente. No utiliza reseñas, escasez o claims no comprobados.
+
+## Disponibilidad
+
+- Reno grande: disponible a S/ 12.
+- Tamaño mediano: S/ 8, próximamente.
+- Cabaña: S/ 8, próximamente y con imagen totalmente difuminada.
+- Pack Pareja: próximamente, precio por anunciar y con imagen totalmente difuminada.
 
 ## Desarrollo local
 
@@ -16,18 +23,6 @@ No requiere dependencias de Node. Para abrirlo localmente:
 python3 -m http.server 3000
 ```
 
-Luego visita `http://localhost:3000`.
+La estructura principal es `index.html`, `styles.css`, `script.js`, `assets/`, `manus-routes.json`, `brand-spec.md` y `TODO.md`. El JavaScript controla la navegación, el cambio de intención emocional, el scroll progress, los estados de sección, el revelado progresivo y el modal de productos.
 
-## Estructura
-
-- `index.html`: contenido semántico, metadatos y secciones de la home.
-- `styles.css`: sistema visual editorial, iluminación, responsive y estados accesibles.
-- `script.js`: navegación, scroll progress, revelado, modal de productos y CTA de WhatsApp.
-- `assets/nevaluz-brand/`: fotografías y adaptaciones suministradas para la marca.
-- `manus-routes.json`: manifiesto de la ruta principal para el Preview.
-- `brand-spec.md`: decisiones de marca, copy y disponibilidad.
-
-## Contacto de marca
-
-- WhatsApp: +51 946 374 985
-- TikTok: [@nevaluz16](https://www.tiktok.com/@nevaluz16)
+WhatsApp: +51 946 374 985 · TikTok: [@nevaluz16](https://www.tiktok.com/@nevaluz16)

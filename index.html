@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0e0d0b" />
-  <meta name="description" content="NEVALUZ crea lámparas artesanales de Reno a partir de frascos de vidrio recuperado. Regala una luz que permanece." />
-  <meta property="og:title" content="NEVALUZ — Enciende el recuerdo que quieres regalar" />
-  <meta property="og:description" content="Lámparas artesanales hechas para regalar momentos cálidos." />
+  <meta name="theme-color" content="#f1eadc" />
+  <meta name="description" content="NEVALUZ convierte frascos de vidrio recuperado en lámparas artesanales para regalar momentos que permanecen." />
+  <meta property="og:title" content="NEVALUZ — Lo cotidiano, encendido" />
+  <meta property="og:description" content="Una segunda vida para el vidrio. Un primer recuerdo para quien lo recibe." />
   <meta property="og:type" content="website" />
-  <title>NEVALUZ — Enciende el recuerdo que quieres regalar</title>
+  <title>NEVALUZ — Lo cotidiano, encendido</title>
   <link rel="icon" type="image/svg+xml" href="assets/nevaluz-mark.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,211 +16,96 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
+  <div class="announcement"><span class="announcement-dot"></span> Reno grande disponible · S/ 12 <a href="#coleccion">Ver la pieza <span>↗</span></a></div>
   <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
   <header class="site-header" id="site-header">
-    <a class="wordmark" href="#inicio" aria-label="NEVALUZ, inicio">
-      <span>NEVA</span><b>LUZ</b><i aria-hidden="true"></i>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menú</button>
+    <a class="wordmark" href="#inicio" aria-label="NEVALUZ, inicio"><span>NEVA</span><b>LUZ</b><i aria-hidden="true"></i></a>
     <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
-      <a href="#coleccion">Colección</a>
-      <a href="#historia">La historia</a>
-      <a href="#proceso">Proceso</a>
-      <a href="#tiktok">TikTok</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#coleccion">La pieza</a>
+      <a href="#por-que">El propósito</a>
+      <a href="#proceso">El proceso</a>
+      <a href="#tiktok">Más NEVALUZ</a>
     </nav>
-    <a class="header-cta" href="https://wa.me/51946374985?text=Hola%20NEVALUZ%2C%20quiero%20conocer%20la%20colecci%C3%B3n" target="_blank" rel="noreferrer">Hablar por WhatsApp <span>↗</span></a>
+    <a class="header-cta" href="https://wa.me/51946374985?text=Hola%20NEVALUZ%2C%20quiero%20conocer%20la%20colecci%C3%B3n" target="_blank" rel="noreferrer">Conversar <span>↗</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menú</button>
   </header>
 
   <main id="contenido">
-    <section class="hero section-pad" id="inicio" aria-labelledby="hero-title">
-      <div class="hero-copy reveal reveal-left">
-        <p class="eyebrow"><span></span> Objetos con segunda vida</p>
-        <h1 id="hero-title">Enciende el recuerdo<br /><em>que quieres</em><br />regalar.</h1>
-        <p class="hero-lead">Lámparas artesanales hechas desde un frasco recuperado, para convertir un gesto pequeño en una emoción que vuelve a encenderse.</p>
-        <div class="hero-actions">
-          <a class="button button-gold" href="#coleccion">Descubrir Reno <span>↓</span></a>
-          <a class="text-link" href="#historia">Conocer la historia <span>↗</span></a>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-shell">
+        <div class="hero-copy reveal reveal-left">
+          <p class="overline"><span>NEVALUZ / 01</span><i></i><span>OBJETOS CON SEGUNDA VIDA</span></p>
+          <h1 id="hero-title">Lo cotidiano,<br /><em>encendido.</em></h1>
+          <p class="hero-lead">Una lámpara hecha desde un frasco recuperado. Un regalo pequeño que cambia la atmósfera de un lugar y la memoria de quien lo recibe.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#coleccion">Conocer Reno <span>↓</span></a><a class="quiet-link" href="#por-que">Por qué existe <span>↗</span></a></div>
+          <div class="hero-microcopy"><strong>01</strong><span>Una segunda vida para el vidrio.</span></div>
         </div>
-        <div class="hero-proof" aria-label="Características de NEVALUZ">
-          <span><b>01</b> Vidrio recuperado</span>
-          <span><b>02</b> Luz LED cálida</span>
-          <span><b>03</b> Hecho a mano</span>
-        </div>
-      </div>
 
-      <div class="hero-art reveal reveal-right" aria-label="Lámpara NEVALUZ Reno">
-        <div class="orbit orbit-one" aria-hidden="true"></div>
-        <div class="orbit orbit-two" aria-hidden="true"></div>
-        <div class="hero-image-wrap">
-          <img src="assets/nevaluz-brand/reno-hero-adapted.png" alt="Lámpara Reno grande de NEVALUZ, encendida dentro de un frasco recuperado" />
-          <span class="image-glow" aria-hidden="true"></span>
+        <div class="hero-stage reveal reveal-right">
+          <div class="stage-backdrop" aria-hidden="true"></div>
+          <div class="stage-label"><span>RENO</span><b>01</b></div>
+          <div class="hero-image"><img src="assets/nevaluz-brand/reno-hero-adapted.png" alt="Lámpara Reno grande encendida dentro de un frasco recuperado" /><span class="hero-image-shine" aria-hidden="true"></span></div>
+          <div class="stage-note"><span>EDICIÓN DE INICIO</span><strong>S/ 12</strong><small>Disponible ahora</small></div>
+          <div class="stage-caption"><span>Hecho a mano</span><span>LED cálida</span><span>Perú</span></div>
         </div>
-        <div class="hero-label hero-label-top"><span>01</span><strong>Reno<br />grande</strong></div>
-        <div class="hero-label hero-label-bottom"><span>02</span><strong>Una luz<br />que permanece</strong></div>
-        <div class="hero-stamp">HECHO<br /><b>A MANO</b><br /><small>EN PERÚ</small></div>
-        <p class="hero-price"><small>Disponible ahora</small><strong>S/ 12</strong></p>
       </div>
+      <div class="hero-footer"><span>Desliza para descubrir la historia</span><i></i><span>01 — 06</span></div>
     </section>
 
-    <section class="manifesto section-pad" id="historia" aria-labelledby="manifesto-title">
-      <div class="section-rule"><span>NEVALUZ / 01</span><i></i><span>DISEÑO CON PROPÓSITO</span></div>
-      <div class="manifesto-grid reveal">
-        <div>
-          <p class="section-kicker dark">Una historia que empieza antes de encenderse</p>
-          <h2 id="manifesto-title">No hacemos lámparas.<br /><em>Rescatamos momentos.</em></h2>
-        </div>
-        <div class="manifesto-copy">
-          <p>Un frasco puede terminar como residuo o convertirse en el lugar donde una historia vuelve a brillar. En NEVALUZ elegimos lo segundo.</p>
-          <p class="manifesto-quote">“Donde llega la luz,<br />empieza el recuerdo.”</p>
-          <p class="manifesto-note"><b>Una elección pequeña.</b><br />Recuperamos vidrio y lo transformamos en un objeto cálido para regalar, conservar y volver a mirar.</p>
-        </div>
+    <section class="why section-pad" id="por-que" aria-labelledby="why-title">
+      <div class="why-heading reveal"><p class="overline"><span>NEVALUZ / 02</span><i></i><span>EL TRABAJO QUE HACE</span></p><h2 id="why-title">No compras una lámpara.<br /><em>Eliges qué hacer sentir.</em></h2></div>
+      <div class="why-intro reveal"><p>Las personas no regalan objetos para llenar un espacio. Regalan una señal: “pensé en ti”. NEVALUZ existe para hacer visible ese gesto.</p><span class="signature-line">La luz encuentra su forma en tus manos.</span></div>
+      <div class="feeling-grid">
+        <button class="feeling-card is-active reveal" type="button" data-feeling="sorprender"><span class="feeling-number">01</span><strong>Sorprender</strong><p>Para ese momento en que abrir un regalo debe decir más que cualquier frase.</p><span class="feeling-arrow">↗</span></button>
+        <button class="feeling-card reveal reveal-delay-1" type="button" data-feeling="acompanar"><span class="feeling-number">02</span><strong>Acompañar</strong><p>Una luz cálida para quedarse cerca incluso cuando no estás en la habitación.</p><span class="feeling-arrow">↗</span></button>
+        <button class="feeling-card reveal reveal-delay-2" type="button" data-feeling="recordar"><span class="feeling-number">03</span><strong>Recordar</strong><p>Un objeto cotidiano que vuelve a encender una historia cada noche.</p><span class="feeling-arrow">↗</span></button>
       </div>
-      <div class="principles reveal" aria-label="Principios de NEVALUZ">
-        <div><b>01</b><span>Material<br />recuperado</span></div>
-        <div><b>02</b><span>Capas 3D<br />caladas a mano</span></div>
-        <div><b>03</b><span>Luz LED<br />cálida</span></div>
-        <div><b>04</b><span>Regalo<br />con intención</span></div>
-        <div><b>05</b><span>Menos residuos,<br />más historias</span></div>
+      <div class="feeling-output" id="feeling-output" aria-live="polite"><span>LA IDEA CENTRAL</span><strong>Un regalo con intención se queda más tiempo.</strong></div>
+    </section>
+
+    <section class="collection section-pad" id="coleccion" aria-labelledby="collection-title">
+      <div class="collection-top reveal"><div><p class="overline"><span>NEVALUZ / 03</span><i></i><span>LA PIEZA</span></p><h2 id="collection-title">Reno <em>01</em></h2></div><p class="collection-index">LA PRIMERA EDICIÓN<br /><b>Grande · S/ 12</b></p></div>
+      <div class="product-feature">
+        <div class="product-visual reveal reveal-left"><div class="visual-frame"><img src="assets/nevaluz-brand/reno-real.jpg" alt="Reno grande iluminado en un espacio cotidiano" /><span class="visual-sticker">R / 01</span></div><div class="visual-foot"><span>Una escena de bosque, dentro de un frasco.</span><span>Vista real del producto ↗</span></div></div>
+        <div class="product-detail reveal reveal-right">
+          <p class="product-kicker">La pieza que abre la colección</p>
+          <h3>Para regalar<br /><em>algo que permanece.</em></h3>
+          <p class="product-description">Reno transforma un frasco recuperado en una pequeña escena de luz. Está pensado para entregar un gesto, no solo un objeto.</p>
+          <div class="product-facts"><div><span>MATERIAL</span><strong>Vidrio recuperado</strong></div><div><span>LUZ</span><strong>LED cálida</strong></div><div><span>ACCIÓN</span><strong>Sin cables</strong></div></div>
+          <div class="size-choice"><div class="size-choice-title"><span>ELIGE LA ESCALA DE LA HISTORIA</span><small>La disponibilidad es siempre clara.</small></div><div class="size-choice-row is-current"><span class="choice-number">01</span><div><strong>Grande</strong><small>S/ 12 · Disponible</small></div><span class="choice-state">Elegir</span></div><div class="size-choice-row is-future"><span class="choice-number">02</span><div><strong>Mediano</strong><small>S/ 8 · Próximamente</small></div><span class="choice-state">Pronto</span></div></div>
+          <div class="product-cta"><a class="button button-dark" href="https://wa.me/51946374985?text=Hola%20NEVALUZ%2C%20quiero%20reservar%20un%20Reno%20grande%20por%20S%2F%2012" target="_blank" rel="noreferrer">Reservar Reno <span>↗</span></a><button class="text-button quick-view" type="button" data-index="0">Ver detalles <span>+</span></button></div>
+        </div>
       </div>
     </section>
 
     <section class="process section-pad" id="proceso" aria-labelledby="process-title">
-      <div class="process-intro reveal">
-        <p class="eyebrow"><span></span> Del frasco a la historia</p>
-        <h2 id="process-title">Una luz que<br /><em>toma forma.</em></h2>
-        <p>El valor está en el recorrido: recuperar, preparar y convertir un objeto cotidiano en una escena que acompaña.</p>
-      </div>
-      <div class="process-list">
-        <article class="process-step reveal" data-step="01">
-          <span class="step-number">01</span>
-          <div><h3>Encontrar</h3><p>Elegimos frascos de vidrio recuperado que todavía tienen algo que decir.</p></div>
-        </article>
-        <article class="process-step reveal" data-step="02">
-          <span class="step-number">02</span>
-          <div><h3>Preparar</h3><p>Limpiamos, adaptamos y dejamos lista la base para una nueva vida.</p></div>
-        </article>
-        <article class="process-step reveal" data-step="03">
-          <span class="step-number">03</span>
-          <div><h3>Revelar</h3><p>Las capas de Reno se calan a mano para que la luz aparezca desde cada ángulo.</p></div>
-        </article>
-        <article class="process-step reveal" data-step="04">
-          <span class="step-number">04</span>
-          <div><h3>Regalar</h3><p>La pieza sale lista para convertirse en un gesto personal, cálido y memorable.</p></div>
-        </article>
+      <div class="process-header reveal"><p class="overline"><span>NEVALUZ / 04</span><i></i><span>EL PROCESO</span></p><h2 id="process-title">De frasco<br /><em>a recuerdo.</em></h2><p>La diferencia no está en hacer más. Está en mirar de otra manera lo que ya existe.</p></div>
+      <div class="process-track">
+        <article class="process-card reveal"><span class="process-number">01</span><div class="process-mark">◌</div><h3>Rescatar</h3><p>Encontramos un frasco que todavía puede tener una segunda vida.</p></article>
+        <article class="process-card reveal reveal-delay-1"><span class="process-number">02</span><div class="process-mark">⌁</div><h3>Preparar</h3><p>Lo limpiamos y adaptamos para convertirlo en una base de luz.</p></article>
+        <article class="process-card reveal reveal-delay-2"><span class="process-number">03</span><div class="process-mark">✦</div><h3>Revelar</h3><p>Las capas de Reno se calan a mano para que aparezcan con la luz.</p></article>
+        <article class="process-card reveal reveal-delay-3"><span class="process-number">04</span><div class="process-mark">↗</div><h3>Regalar</h3><p>La pieza llega lista para convertirse en un mensaje personal.</p></article>
       </div>
     </section>
 
-    <section class="collection section-pad" id="coleccion" aria-labelledby="collection-title">
-      <div class="section-heading reveal">
-        <div>
-          <p class="eyebrow"><span></span> La colección NEVALUZ</p>
-          <h2 id="collection-title">Una forma de<br /><em>regalar luz.</em></h2>
-        </div>
-        <p class="section-note">Una pieza disponible.<br />Dos historias por encender.</p>
-      </div>
-
-      <div class="size-rail reveal" aria-label="Tamaños de Reno">
-        <div class="size-option active"><span class="size-number">01</span><div><strong>Tamaño grande · S/ 12</strong><small>Los que vamos a observar</small></div><span class="size-status">Disponible</span></div>
-        <div class="size-option upcoming"><span class="size-number">02</span><div><strong>Tamaño mediano · S/ 8</strong><small>Una próxima escala de luz</small></div><span class="size-status">Próximamente</span></div>
-      </div>
-
-      <div class="product-grid">
-        <article class="product-card product-featured reveal" data-model="reno" data-index="0">
-          <div class="product-image product-image-main">
-            <img src="assets/nevaluz-brand/reno-hero-adapted.png" alt="Reno grande, lámpara artesanal de NEVALUZ" />
-            <span class="edition">Disponible · Reno grande</span>
-            <span class="product-index">01 / 03</span>
-            <button class="quick-view" type="button" aria-label="Ver detalle de Reno grande">+</button>
-          </div>
-          <div class="product-info"><div><p class="product-type">Edición numerada · Reno</p><h3>Reno <em>01</em></h3></div><strong class="price">S/ 12</strong></div>
-          <p class="product-desc">Una escena de bosque encendida para regalar con intención, memoria y un mensaje propio.</p>
-          <p class="mini-slogan">“Regala una emoción que vuelve a encenderse.”</p>
-          <a class="card-link" href="https://wa.me/51946374985?text=Hola%20NEVALUZ%2C%20quiero%20reservar%20un%20Reno%20grande%20por%20S%2F%2012" target="_blank" rel="noreferrer">Reservar esta pieza <span>↗</span></a>
-        </article>
-
-        <article class="product-card product-upcoming reveal reveal-delay-1" data-model="cabana" data-index="1">
-          <div class="product-image future-image">
-            <img src="assets/nevaluz-brand/cabana-detail-original.jpg" alt="Cabaña mediana, próxima edición NEVALUZ" />
-            <span class="coming-soon-badge">Próximamente</span>
-            <span class="edition">Mediano · S/ 8</span>
-            <span class="product-index">02 / 03</span>
-            <button class="quick-view" type="button" aria-label="Ver detalle de Cabaña próximamente">+</button>
-          </div>
-          <div class="product-info"><div><p class="product-type">Próxima edición · Cabaña</p><h3>Cabaña <em>02</em></h3></div><strong class="price upcoming-price">S/ 8<br /><small>Próximamente</small></strong></div>
-          <p class="product-desc">Un refugio de luz cálida que llegará en una próxima edición de NEVALUZ.</p>
-          <p class="mini-slogan">“La próxima historia ya está tomando forma.”</p>
-        </article>
-
-        <article class="product-card product-upcoming product-wide reveal reveal-delay-2" data-model="pareja" data-index="2">
-          <div class="product-image future-image wide-image">
-            <img src="assets/nevaluz-brand/collection-original.jpg" alt="Pack Pareja, próxima edición NEVALUZ" />
-            <span class="coming-soon-badge">Próximamente</span>
-            <span class="edition">Pack futuro · Pareja</span>
-            <span class="product-index">03 / 03</span>
-            <button class="quick-view" type="button" aria-label="Ver detalle del Pack Pareja próximamente">+</button>
-          </div>
-          <div class="product-info"><div><p class="product-type">Próximo pack · Pareja</p><h3>Pack Pareja <em>03</em></h3></div><strong class="price upcoming-price">Precio<br /><small>por anunciar</small></strong></div>
-          <p class="product-desc">Una composición para compartir: dos paisajes, una misma luz y una edición por revelar.</p>
-          <p class="mini-slogan">“Cuando dos luces se encuentran, nace algo inolvidable.”</p>
-        </article>
+    <section class="future section-pad" aria-labelledby="future-title">
+      <div class="future-heading reveal"><p class="overline"><span>NEVALUZ / 05</span><i></i><span>LO QUE VIENE</span></p><h2 id="future-title">Hay historias que<br /><em>todavía esperan luz.</em></h2><p>La colección crece despacio. Mostramos el camino sin adelantar lo que aún está tomando forma.</p></div>
+      <div class="future-grid">
+        <article class="future-card reveal" data-index="1"><div class="future-image"><img src="assets/nevaluz-brand/cabana-detail-original.jpg" alt="Cabaña mediana, próxima edición NEVALUZ" /><span>Próximamente</span><button class="quick-view" type="button" data-index="1" aria-label="Ver información de Cabaña próximamente">+</button></div><div class="future-meta"><span>02 / CABAÑA</span><strong>Mediano · S/ 8</strong></div><p>“La próxima historia ya está tomando forma.”</p></article>
+        <article class="future-card reveal reveal-delay-1" data-index="2"><div class="future-image"><img src="assets/nevaluz-brand/collection-original.jpg" alt="Pack Pareja, próxima edición NEVALUZ" /><span>Próximamente</span><button class="quick-view" type="button" data-index="2" aria-label="Ver información del Pack Pareja próximamente">+</button></div><div class="future-meta"><span>03 / PACK PAREJA</span><strong>Precio por anunciar</strong></div><p>“Cuando dos luces se encuentran, nace algo inolvidable.”</p></article>
       </div>
     </section>
 
-    <section class="ambient section-pad" aria-labelledby="ambient-title">
-      <div class="ambient-copy reveal">
-        <p class="eyebrow"><span></span> El objeto en su ambiente</p>
-        <h2 id="ambient-title">Una luz para<br /><em>quedarse.</em></h2>
-        <p>El Reno nace para acompañar rincones silenciosos: una ventana, una mesa compartida, una noche que merece durar un poco más.</p>
-        <span class="ambient-caption">La belleza también puede ser cotidiana.</span>
-      </div>
-      <div class="ambient-gallery reveal reveal-right">
-        <figure class="ambient-wide"><img src="assets/nevaluz-brand/reno-real.jpg" alt="Fotografía real de la lámpara Reno encendida" /><figcaption><span>03 / AMBIENTE</span> Reno · hora azul</figcaption></figure>
-        <figure class="ambient-detail"><img src="assets/nevaluz-brand/reno-hero-adapted.png" alt="Detalle de las capas iluminadas de Reno" /><figcaption><span>04 / DETALLE</span> Capas de luz</figcaption></figure>
-      </div>
-    </section>
+    <section class="social section-pad" id="tiktok" aria-labelledby="social-title"><div class="social-mark">♪</div><div class="social-copy reveal"><p class="overline"><span>NEVALUZ / 06</span><i></i><span>LA HISTORIA CONTINÚA</span></p><h2 id="social-title">Mira lo que<br /><em>estamos encendiendo.</em></h2><p>En TikTok compartimos nuevas ediciones, detalles del proceso y las escenas que inspiran cada pieza.</p><a class="button button-light" href="https://www.tiktok.com/@nevaluz16" target="_blank" rel="noreferrer">Seguir a NEVALUZ <span>↗</span></a></div><div class="social-note reveal reveal-delay-1"><span>@NEVALUZ16</span><strong>Un objeto.<br />Una atmósfera.<br />Un recuerdo.</strong></div></section>
 
-    <section class="tiktok section-pad" id="tiktok" aria-labelledby="tiktok-title">
-      <div class="tiktok-mark" aria-hidden="true">♪</div>
-      <div class="tiktok-copy reveal">
-        <p class="eyebrow"><span></span> La colección continúa fuera del catálogo</p>
-        <h2 id="tiktok-title">Mira cómo<br /><em>cobra vida.</em></h2>
-        <p>Síguenos en TikTok para descubrir futuras ediciones, tamaños medianos y el próximo video promocional de NEVALUZ. Una colección que sigue creciendo, pieza a pieza.</p>
-        <a class="button button-gold" href="https://www.tiktok.com/@nevaluz16" target="_blank" rel="noreferrer">Ver la inspiración <span>↗</span></a>
-      </div>
-      <div class="tiktok-note reveal reveal-delay-1"><span>NEVALUZ / 02</span><strong>Del frasco<br />al recuerdo.</strong><small>Historias por encender<br />+ nuevas ediciones<br />+ inspiración</small></div>
-    </section>
-
-    <section class="closing section-pad" id="contacto" aria-labelledby="closing-title">
-      <div class="closing-line" aria-hidden="true"></div>
-      <p class="eyebrow"><span></span> Una pieza para decir algo</p>
-      <h2 id="closing-title">No regales algo más.<br /><em>Regala una luz que permanece.</em></h2>
-      <p>Reserva tu Reno grande y convierte un gesto pequeño en una historia que vuelve a encenderse.</p>
-      <a class="button button-gold" href="https://wa.me/51946374985?text=Hola%20NEVALUZ%2C%20quiero%20reservar%20un%20Reno%20grande%20por%20S%2F%2012" target="_blank" rel="noreferrer">Hazlo memorable <span>↗</span></a>
-    </section>
+    <section class="closing section-pad" id="contacto" aria-labelledby="closing-title"><p class="overline"><span></span><span>EL PRÓXIMO GESTO ES TUYO</span><i></i></p><h2 id="closing-title">Haz que un momento<br /><em>tenga luz.</em></h2><p>Reno grande está disponible por S/ 12. Escríbenos y hagámoslo memorable.</p><a class="button button-dark" href="https://wa.me/51946374985?text=Hola%20NEVALUZ%2C%20quiero%20hacer%20memorable%20un%20regalo%20con%20Reno%20grande%20por%20S%2F%2012" target="_blank" rel="noreferrer">Hablar por WhatsApp <span>↗</span></a></section>
   </main>
 
-  <footer class="site-footer">
-    <a class="wordmark" href="#inicio" aria-label="NEVALUZ, volver al inicio"><span>NEVA</span><b>LUZ</b><i aria-hidden="true"></i></a>
-    <p>Vidrio recuperado · Hecho a mano · Perú</p>
-    <a href="https://wa.me/51946374985" target="_blank" rel="noreferrer">+51 946 374 985 ↗</a>
-  </footer>
+  <footer class="site-footer"><a class="wordmark" href="#inicio"><span>NEVA</span><b>LUZ</b><i aria-hidden="true"></i></a><p>Vidrio recuperado · Hecho a mano · Perú</p><a href="https://www.tiktok.com/@nevaluz16" target="_blank" rel="noreferrer">@nevaluz16 ↗</a></footer>
 
-  <dialog class="product-modal" aria-labelledby="modal-title">
-    <button class="modal-close" type="button" aria-label="Cerrar detalle">×</button>
-    <div class="modal-image"><img src="" alt="" /></div>
-    <div class="modal-copy">
-      <p class="eyebrow"><span></span> <span class="modal-kicker">Pieza de colección</span></p>
-      <h2 id="modal-title"></h2>
-      <p class="modal-description"></p>
-      <div class="modal-meta"><span class="modal-status"></span><strong class="modal-price"></strong></div>
-      <a class="button button-gold modal-cta" href="#" target="_blank" rel="noreferrer">Quiero esta pieza <span>↗</span></a>
-    </div>
-  </dialog>
-
+  <dialog class="product-modal" aria-labelledby="modal-title"><button class="modal-close" type="button" aria-label="Cerrar detalle">×</button><div class="modal-image"><img src="" alt="Detalle de producto NEVALUZ" /></div><div class="modal-copy"><p class="overline"><span>NEVALUZ / DETALLE</span><i></i></p><h2 id="modal-title"></h2><p class="modal-description"></p><div class="modal-meta"><span class="modal-status"></span><strong class="modal-price"></strong></div><a class="button button-dark modal-cta" href="#" target="_blank" rel="noreferrer">Quiero esta pieza <span>↗</span></a></div></dialog>
   <script src="script.js"></script>
 </body>
 </html>

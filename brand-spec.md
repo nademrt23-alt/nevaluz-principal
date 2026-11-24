@@ -1,44 +1,34 @@
-# NEVALUZ — especificación de la página principal
+# NEVALUZ — especificación de la nueva página principal
 
-## Posicionamiento
+## Nueva dirección
 
-NEVALUZ convierte frascos de vidrio recuperado en lámparas artesanales para regalar momentos cálidos. La marca no vende únicamente iluminación: facilita un gesto de afecto que puede permanecer en un espacio cotidiano.
+La página abandona el formato de catálogo editorial oscuro y adopta una dirección de lanzamiento de producto: superficies marfil y carbón, tipografía de alto contraste, módulos con bordes finos, información por capas y una pieza protagonista presentada como objeto de diseño.
 
-Personalidad: **cálida, consciente, memorable**.
+La idea central es **“Lo cotidiano, encendido.”**. La marca se comunica como una casa de objetos con intención, no como una tienda que empuja inventario.
 
-## Dirección visual
+## Psicología aplicada de forma ética
 
-La home usa una estética de lujo editorial nocturno: carbón profundo como silencio visual, luz ámbar como centro emocional, papel marfil para el manifiesto y líneas finas de latón como sistema de orientación. La composición es asimétrica y deja aire alrededor del Reno para que el producto sea protagonista.
+La estructura sigue una secuencia AIDA: una promesa corta y memorable en el hero; una explicación emocional del trabajo que hace el producto; evidencia tangible en materiales y proceso; y un CTA único hacia WhatsApp.
 
-- Carbón profundo: `#0e0d0b`
-- Carbón suave: `#171410`
-- Marrón nogal: `#221a13`
-- Papel marfil: `#eee7d8`
-- Latón NEVALUZ: `#c8a45b`
-- Oro cálido: `#e8c87c`
-- Texto secundario: `#a79c88`
-- Titulares y precios: Cormorant Garamond
-- Navegación, etiquetas y textos: DM Sans
+La sección “¿Qué quieres provocar?” aplica Jobs to Be Done y permite que la persona se reconozca en tres trabajos emocionales: sorprender, acompañar o recordar. El cambio de copy usa compromiso y consistencia de baja fricción: elegir una intención no obliga a comprar, pero ayuda a imaginar el producto en una situación real.
 
-## Arquitectura de conversión
+La colección usa elección guiada y Hick: Reno grande es el camino principal, con precio y disponibilidad visibles en el primer vistazo. Tamaño mediano, Cabaña y Pack Pareja forman una ruta futura separada. No hay escasez, testimonios, cantidades ni precios inventados.
 
-La página sigue una secuencia AIDA sencilla y honesta: atención con el hero emocional; interés con el propósito y el proceso; deseo con la galería de ambiente y los slogans; acción con una sola ruta directa a WhatsApp. Se evita la parálisis por exceso de opciones y no se usan cifras de prueba social, urgencia o escasez que no hayan sido confirmadas.
+La repetición de la frase “una luz que permanece” trabaja mere exposure; las fotografías reales y la escena de uso activan availability heuristic; el cierre busca un peak-end emocional sin presión falsa.
 
-## Colección y disponibilidad
+## Sistema visual
 
-- Reno grande: disponible, `S/ 12`, producto protagonista.
-- Tamaño mediano: `S/ 8`, “Próximamente”.
-- Cabaña mediana: `S/ 8`, “Próximamente”, imagen completamente difuminada.
-- Pack Pareja: precio pendiente, “Próximamente”, imagen completamente difuminada y sin precio inventado.
+- Papel marfil: `#f1eadc`, para claridad, calidez y lectura pausada.
+- Carbón: `#151613`, para contraste, confianza y foco en el producto.
+- Ámbar NEVALUZ: `#c8943f`, para acciones y momentos de atención.
+- Ámbar luz: `#e5b764`, para el brillo emocional sobre fondos oscuros.
+- Cormorant Garamond: idea, emoción, precio y frases memorables.
+- DM Sans: navegación, metadatos, decisiones y lectura funcional.
+
+## Disponibilidad oficial
+
+Reno grande está disponible por `S/ 12`. Tamaño mediano aparece como `S/ 8 · Próximamente`. Cabaña aparece como próxima edición con `S/ 8`, pero no disponible. Pack Pareja permanece como próxima edición y muestra `Precio por anunciar`, sin inventar una cifra.
 
 ## Voz
 
-Frases cortas, sensoriales y honestas. La voz habla de recuerdos, luz y gestos sin prometer resultados no demostrables. Líneas aplicadas:
-
-- “Enciende el recuerdo que quieres regalar.”
-- “Regala una emoción que vuelve a encenderse.”
-- “No regales algo más. Regala una luz que permanece.”
-
-## Interacción
-
-JavaScript vanilla controla navegación suave, navegación móvil de respaldo, scroll progress, navegación activa por sección, revelado progresivo, hover de producto y modal de detalle. Las futuras ediciones conservan el blur también dentro del modal para no revelar sus imágenes.
+La voz es breve, segura y sensorial. Evita describir funcionalidades antes de explicar el significado. Frases principales: “Lo cotidiano, encendido.”, “No compras una lámpara. Eliges qué hacer sentir.” y “Haz que un momento tenga luz.”
